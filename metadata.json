@@ -1,0 +1,6 @@
+{
+  "name": "AfriVersity",
+  "description": "An African-focused university, scholarship, internship, course discovery, and mentorship platform connecting students with verified academic and career opportunities across Africa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

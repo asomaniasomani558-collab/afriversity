@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-earth-50: #FAF7F2;
+  --color-earth-100: #F4EFEB;
+  --color-earth-200: #E8DFD5;
+  --color-earth-300: #D8C7B5;
+  --color-earth-700: #4A3E35;
+  --color-earth-800: #332B25;
+  --color-earth-900: #1F1915;
+  --color-savanna-green: #1B4332;
+  --color-savanna-dark: #122B20;
+  --color-savanna-light: #2D6A4F;
+  --color-terracotta: #C85A32;
+  --color-terracotta-dark: #A84521;
+  --color-terracotta-light: #DF764F;
+  --color-kente-gold: #D49B37;
+  --color-kente-ochre: #B87333;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FAF7F2;
+  color: #1A1815;
+}
+
+.dark body {
+  background-color: #0F0D0B;
+  color: #FAF7F2;
+}
+
+h1, h2, h3, .font-heading {
+  font-family: var(--font-serif);
+}
+
+/* Subtle African geometric pattern backdrop */
+.bg-african-pattern {
+  background-image: radial-gradient(#C85A32 0.75px, transparent 0.75px), radial-gradient(#1B4332 0.75px, #FAF7F2 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  background-opacity: 0.05;
+}
+
+.dark .bg-african-pattern {
+  background-image: radial-gradient(rgba(212, 155, 55, 0.2) 0.75px, transparent 0.75px), radial-gradient(rgba(45, 106, 79, 0.2) 0.75px, #0F0D0B 0.75px);
+}
+
+.bg-african-dark-pattern {
+  background-image: radial-gradient(rgba(212, 155, 55, 0.15) 1px, transparent 1px);
+  background-size: 24px 24px;
+}

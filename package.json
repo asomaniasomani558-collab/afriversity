@@ -18,18 +18,29 @@
     "lucide-react": "^0.546.0",
     "react": "^19.0.1",
     "react-dom": "^19.0.1",
+<<<<<<< HEAD
     "vite": "^8.3.0",
     "express": "^4.21.2",
     "dotenv": "^17.2.3",
     "motion": "^12.23.24"
+=======
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "ws": "^8.21.3"
+>>>>>>> 596a590 (fix esbuild dependency conflict)
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "autoprefixer": "^10.4.21",
+<<<<<<< HEAD
     "esbuild": "^0.25.0",
     "tailwindcss": "^4.3.3",
+=======
+    "esbuild": "^0.28.2",
+    "tailwindcss": "^4.1.14",
+>>>>>>> 596a590 (fix esbuild dependency conflict)
     "tsx": "^4.21.0",
     "typescript": "^7.0.2",
     "@types/express": "^4.17.21"
